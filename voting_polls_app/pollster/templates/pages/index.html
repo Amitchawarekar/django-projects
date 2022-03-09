@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="card text-center">
+  <div class="card-body">
+    <h1>Welcome To My Polling App</h1>
+    <p>This is a polling app for making a survey of what students are thinking about!</p>
+    <a class="btn btn-dark" href="{% url 'polls:index' %}">
+        Click here to View Available Polls</a
+      >
+  </div>
+  </div>
+{% endblock %}
